@@ -1,6 +1,5 @@
-name: Super-Linter
+name: Stuff and things
 
-# Run this workflow every time a new commit pushed to your repository
 on: push
 
 jobs:
@@ -9,8 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: |
-        npm install
-        npm run all
+        make
   test:
     runs-on: macOS-latest
     steps:
