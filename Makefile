@@ -10,7 +10,7 @@ taskw/pubspec.lock:
 	cd taskw && dart pub get
 
 task/.packages:
-	cd task && flutter pub get
+	cd task && dart pub get
 
 format:
 	dart format . \
