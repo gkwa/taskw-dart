@@ -11,4 +11,5 @@ jobs:
         brew tap dart-lang/dart
         brew install dart
         brew install entr
+    - run: |
         make
