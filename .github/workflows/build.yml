@@ -3,7 +3,7 @@ name: Stuff and things
 on: push
 
 jobs:
-  build: # make sure build/ci work properly
+  build:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v2
