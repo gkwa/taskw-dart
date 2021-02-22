@@ -12,11 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: |
-          apt-get -y update
-          apt-get -y install make
-
       - name: stuff
         run: make format
 
