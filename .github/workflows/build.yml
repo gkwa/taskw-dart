@@ -12,10 +12,16 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install dependencies
+        run: brew install make
+
+      - name: stuff
+        run: make format
+
       - name: Print Dart SDK version
         run: dart --version
 
-      - name: stuff
+      - name: format
         run: make format
 
       - name: analyze
