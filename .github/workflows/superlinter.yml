@@ -11,6 +11,7 @@ jobs:
         sw_vers
         brew tap dart-lang/dart
         brew install dart
+        brew install entr
         make
   test:
     runs-on: macOS-latest
