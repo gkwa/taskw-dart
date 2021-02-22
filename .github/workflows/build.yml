@@ -1,6 +1,6 @@
 name: Stuff and things
 
-on: push
+on: [push]
 
 jobs:
   build:
